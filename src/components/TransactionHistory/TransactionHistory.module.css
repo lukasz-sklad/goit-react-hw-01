@@ -1,0 +1,27 @@
+.transactionTable {
+    width: 100%;
+    max-width: 600px;
+    margin: 20px auto;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+.transactionTable th,
+.transactionTable td {
+    padding: 10px;
+    border: 1px solid #000000;
+}
+
+.transactionTable th { /* Type;Amount;Currency */
+    background-color: #3d3c3c;
+    font-weight: bold;
+    color: #f9f9f9;
+}
+
+.transactionTable tbody tr:nth-child(odd) {
+    background-color: #f9f9f9;
+}
+
+.transactionTable tbody tr:hover {
+    background-color: green;
+}
